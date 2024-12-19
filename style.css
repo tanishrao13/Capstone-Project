@@ -1,0 +1,325 @@
+body {
+    background-color: rgba(245, 245, 239, 1);
+    margin: 0;
+    font-family: 'Montagu Slab', serif;
+}
+
+.navbar {
+    padding: 1.11vw 0; 
+    margin: 0 3.33vw;  
+    border-bottom: 0.07vw solid black;  
+}
+
+.syne-navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color:rgba(29, 34, 27, 1);
+    font-family: "Syne", serif;
+    font-size: 2.92vw;  
+    font-weight: 900;
+}
+
+.nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.04vw; 
+}
+
+.nav-links li {
+    list-style-type: none;
+}
+
+.nav-links a {
+    font-family: 'Cutive', serif;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.39vw;  
+    color: black;
+}
+
+.hero {
+    font-family: 'Cutive', serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 4.90vw;  
+    line-height: 5.56vw; 
+    padding: 3.33vw;  
+}
+
+#img1 {
+    border-radius: 1.94vw;  
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+    object-fit: cover;
+}
+.a{
+    font-family: 'Kumbh Sans',serif;
+}
+.b{
+    font-family: 'Kumbh Sans',serif;
+    color:rgba(29, 34, 27, 0.62);
+}   
+ .gallery-container{
+    margin-top:96px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap:3.5px;
+ }
+.gallery-pic{
+    max-width: 100%;
+    width:350px;
+    height: 230px;
+    gap: 1px;
+    border: 1px;
+    color: #1B221B;
+}
+
+.main-area {
+    padding: 6.67vw 18vw;  
+}
+
+.main-text {
+    padding:3vw;
+    font-size: 2.5vw;   
+    text-align: center;
+    font-family: 'Cutive',serif;
+}
+.mess{
+    margin-top:3vw;
+    margin-left: 30vw;
+    font-size: 1.50vw;  
+    width:52vw;
+    text-align: left;
+    font-family: 'Kumbh Sans',serif;
+}
+.end {
+    background-image:url(img/cardend.png);
+    object-fit: cover;
+    padding: 6.67vw 1.67vw;  
+    text-align: center;
+}
+
+.connect{
+    font-family: 'Cutive',serif;
+    color:rgba(255, 255, 255, 1);
+    font-size: 2.36vw; 
+    font-weight: 400;
+}
+#email {
+    margin-top: 3.06vw; 
+    width: 100%;
+    max-width: 27.78vw;  
+    height: 2.22vw;  
+    background-color: white;
+    font-family: 'Kumbh Sans', serif;
+    font-size: 1.04vw;  
+    line-height: 1.39vw;  
+    padding: 0.56vw 0.83vw;  
+    border-radius: 0.56vw;  
+    border: 0.07vw solid black;  
+}
+
+#subs {
+    height: 3.47vw;  
+    background-color: rgba(32, 79, 10, 1);
+    font-family: 'Kumbh Sans', serif;
+    font-size: 1.04vw;  
+    font-weight: 500;
+    padding: 0.56vw 0.83vw;  
+    border-radius: 0.56vw;  
+    color: white;
+    cursor: pointer;
+    border: none;
+    margin-left: 0.56vw;  
+}
+
+#subs:hover {
+    background-color: #004d00;
+}
+
+#fb,#insta,#X{
+    padding-top: 2.78vw;  
+    width: 2.78vw; 
+    height: 2.78vw; 
+    margin: 0 1.11vw; 
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    line-height: 1.94vw; 
+    padding: 0.69vw; 
+    justify-content: space-between;
+}
+
+footer p {
+    color:rgba(29, 34, 27, 0.62);
+    text-align: left;
+    font-weight: 400;
+    font-size: 1.39vw; 
+    font-family: 'Cutive',serif;
+}
+
+#butt {
+    background-color: transparent;
+    font-family: 'Kumbh Sans', serif;
+    font-weight: 500;
+    border-radius: 0.56vw; 
+    font-size: 1.11vw; 
+    cursor: pointer;
+    border: 0.07vw solid rgba(23, 52, 9, 0.16) ; 
+    height: 2.5vw; 
+    line-height: 1.94vw; 
+}
+
+#butt:hover {
+    background-color: #f2f2f2;
+}
+@media (max-width: 465px) {
+    .navbar {
+        padding: 0.1vw 2vw; 
+        margin: 0 3.33vw; 
+        border-bottom: 0.07vw solid black; 
+    }
+    
+    
+    .logo { 
+        font-size: 3.92vw;  
+    }
+    .nav-links li a{
+        font-size: 2.5vw;
+    }
+    
+    .hero {  
+        font-size: 5.86vw;  
+        line-height: 5.56vw; 
+        padding: 3.33vw;  
+    }
+    
+    #img1 {
+        border-radius: 1.94vw; 
+        display: block;
+        width: 95%;
+        margin: 0 auto;
+        height: 28vh;
+    }
+    .pro-text{
+        font-size: 5vw;
+        margin-top: 3vw;
+        margin-bottom: 2vw;
+    }
+    .Projects div{
+        width: 95%;
+    }
+    .view-button { 
+        line-height: 1.39vw;
+        font-size: 2.97vw;  
+        font-weight: 500; 
+        padding: 2.56vw 3.83vw; 
+        border-radius: 1.5vw; 
+    }
+    .main-area {
+        height: auto;
+        width: 100%;
+        padding: 8.67vw 1.67vw; 
+    }
+    .main-area h3{
+        font-size: 3vw;
+        line-height: 3vw;
+        padding-left: 2vw;
+        width: 100%;
+    }
+    .contact {
+        padding: 6.67vw 0;  
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .mess {
+        text-align: left;
+        padding-right: 3vw;
+        font-weight: 400;
+        font-size: 2vw;  
+        line-height: 2.22vw;  
+    }
+    
+    .end {
+        padding: 6.67vw 1.67vw;  
+        text-align: center;
+    } 
+    label {
+        font-size: 3.36vw;  
+        font-weight: 700;
+    }
+    
+    #email { 
+        max-width: 33.78vw;  
+        height: 3vw;   
+        font-size: 2.04vw;  
+        line-height: 1.39vw; 
+        padding: 1.3vw 0.83vw;   
+    }
+    
+    #subs {
+        height: 5.5vw; 
+        background-color: #026600;
+        font-family: 'Spline Sans Mono', monospace;
+        font-size: 2.04vw; 
+        font-weight: 500;
+        padding: 2vw 3.83vw 4vw; 
+        border-radius: 1.2vw; 
+        margin-left: 0.56vw; 
+    }
+    
+    
+    #fb,#insta,#X{
+        margin-top: 3vw;
+        padding-top: 2.78vw; 
+        width: 3.78vw; 
+        height: 3.78vw; 
+    }
+    
+    footer {
+        display: flex;
+        line-height: 1.94vw;
+        padding: 0.69vw 3vw;  
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    footer p {
+        text-align: left;
+        font-weight: 600;
+        font-size: 2.39vw;  
+    }
+    
+    #butt { 
+        border-radius: 0.56vw;  
+        font-size: 2.11vw;  
+        
+        line-height: 1.94vw; 
+        padding: 1vw 2vw 3vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-area { 
+        width: 100%;
+        padding: 8.67vw 1.67vw; 
+    }
+    .main-area h3{
+        font-size: 3vw;
+        line-height: 3vw;
+        padding-left: 2vw;
+        width: 100%;
+    }
+}
